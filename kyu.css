@@ -12,16 +12,17 @@
 		padding: 10px;
 		margin-bottom: 10px;
 }
-.conf {
-    color: rgb(88, 77, 77);
-    font-family: 'ArialMT', 'Arial', sans-serif;
-    font-size: 16px;
+
+.year_style {
+    color: rgb(25, 25, 25);
+    font-family: 'Arial-BoldMT', 'Arial', sans-serif;
+    font-size: 18px;
     font-stretch: normal;
     font-style: normal;
     font-variant: normal;
-    font-weight: 400;
+    font-weight: 700;
     letter-spacing: 0;
-    line-height: 19px;
+    line-height: 25px;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
@@ -34,6 +35,7 @@
     text-indent: 0px;
     text-transform: none;
 }
+
 .paragraph_style_2 {
     color: rgb(20, 52, 118);
     font-family: 'Arial-BoldMT', 'Arial', sans-serif;
@@ -104,6 +106,7 @@
     line-height: 19px;
     text-decoration: none;
 }
+
 .title {
     color: rgb(0, 0, 0);
     font-family: 'Arial-BoldMT', 'Arial', sans-serif;
@@ -115,7 +118,7 @@
     opacity: 1.00;
 }
 .author {
-    color: rgb(0, 0, 0);
+    color: rgb(69, 69, 69);
     font-family: 'ArialMT', 'Arial', sans-serif;
     font-size: 14px;
     font-stretch: normal;
@@ -136,6 +139,39 @@
     text-indent: 0px;
     text-transform: none;
 }
+.conf {
+    color: rgb(69, 69, 69);
+    font-family: 'ArialMT', 'Arial', sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
+.conf_abbr {
+    color: rgb(0, 0, 0);
+    font-family: 'Arial-BoldMT', 'Arial', sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    opacity: 1.00;
+}
+
 .style_3 {
     font-family: 'Arial-BoldMT', 'Arial', sans-serif;
     font-size: 14px;
@@ -182,6 +218,7 @@
     line-height: 16px;
     opacity: 1.00;
 }
+
 .style_External_630_58 {
     position: relative;
 }
@@ -409,20 +446,20 @@ a:hover {
     font-size: 1px;
     line-height: 1px;
 }
-body { 
+body {
     -webkit-text-size-adjust: none;
 }
-div { 
-    overflow: visible; 
+div {
+    overflow: visible;
 }
-img { 
-    border: none; 
+img {
+    border: none;
 }
-.InlineBlock { 
-    display: inline; 
+.InlineBlock {
+    display: inline;
 }
-.InlineBlock { 
-    display: inline-block; 
+.InlineBlock {
+    display: inline-block;
 }
 .inline-block {
     display: inline-block;
